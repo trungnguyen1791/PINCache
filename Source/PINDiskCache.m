@@ -217,7 +217,7 @@ static NSURL *_sharedTrashURL;
         _byteCount = 0;
         
         // 50 MB by default
-        _byteLimit = 50 * 1024 * 1024;
+        _byteLimit = 0;
         // 30 days by default
         _ageLimit = 60 * 60 * 24 * 30;
         
